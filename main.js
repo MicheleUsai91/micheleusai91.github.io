@@ -1,14 +1,10 @@
 function test() {
-    var test = document.getElementById("test");
-    var xhttp = new XMLHttpRequest();
-    var e = document.getElementsByTagName("*");
-    var file = "";
-    for (var i=0; i<e.length;i++) {
-        file = e[i].getAttribute("include") != null ? e[i].getAttribute("include") : "";
-    }
-    if (file != "") {
-        xhttp.open("GET", file, true);
-        xhttp.send();
-        return;
-    }
+    console.log("HELLO");
+}
+
+function sum() {
+    var a = document.getElementById("a").value;
+    var b = document.getElementById("b").value;
+    var sum = document.getElementById("sum");
+    sum.innerHTML = a+b;
 }
