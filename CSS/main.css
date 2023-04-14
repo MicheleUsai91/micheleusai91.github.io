@@ -29,3 +29,15 @@ p {
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
+
+ul {
+    font: 24px/1 'Arial', monospace;
+}
+
+.profile-pic {
+    width: 100px;
+	height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    border: solid white 10px;
+}
